@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Tess-Home</title>
+        <title>Tess-About Me</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -14,8 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="styles/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" type = "text/css" href="./styles/mystyles.css"
+        <link href="../styles/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href = "../styles/mystyles.css" 
     </head>
     <body>
         <!-- Navigation-->
@@ -28,53 +28,58 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="./html/about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="./html/post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="./html/contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('./images/family.jpg')" alt="My Family">
+        <header class="masthead" style="background-image: url('../images/fireworks.jpg')" alt="Fireworks">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Tess Mix</h1>
-                            <span class="subheading">Home Page to the life of Tess</span>
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading">This is what I do.</span>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <!-- Main Content-->
-        <div class="body">
+        <main class="mb-4">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <h2>Pictures are worth a million words let me show you my life...</h2>
-                        <br>    
-                            <img src="./images/friends.jpg" alt="Friends campout">
-                            <h5>I am obbessed with my friends and believe I have the best ones around!</h5>
+                        <h2>My Resume</h2>
                         <br>
+                        <h3>Education</h3>
+                            <p>I graduated high school in 2018 from Desert Vista High School. I am currently a student at BYU in my junior year. I am studying Experience Design and Management and will apply to their program this summer.</p>
                         <br>
-                            <img src="./images/BYU.jpg" alt="BYU game day">
-                            <h5>I love BYU and you can always catch me on game days cheering on the cougs!</h5>
-                            <a href="https://byucougars.com/">BYU sports</a>
+                        <h3>Work Experience (most recent to oldest)</h3>
+                            <ol>
+                                <li>Program Coordinator at Aspen Grove Family Camp and Conference Center</li>
+                                <li>Receptionist at Fyzical Balance Center</li>
+                                <li><a href="https://aspengrove.byu.edu/">Office and Store employee at Aspen Grove Family Camp</a></li>
+                                <li>Nanny 3 children over 5 hours every other weekend</li>
+                            </ol>
                         <br>
+                        <h3>Skills</h3>
+                            <ul>
+                                <li>SQL skills</li>
+                                <li>beginner VBA knowledge</li>
+                                <li>CPR trained</li>
+                                <li>trained in first aid</li>
+                            </ul>
                         <br>
-                            <img src="./images/disney.JPG" alt="Family at Disney">
-                            <h5>My Family is my rock & we love to go to Disneyland every year!</h5>
-                        <br>
-                        <br>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/QwYqMzg6LfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <h5>I have a passion for dancing and all of my friends know I love to do Just Dance!</h5>
+                        <img src="../images/profile.jpg" alt="profile picture">
                     </div>
                 </div>
             </div>
-        </div>    
+        </main>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
@@ -107,9 +112,11 @@
                             </li>
                         </ul>
                         <div class="small text-center text-muted fst-italic">Copyright &copy; Tess's Website 2022</div>
-                        <a href="./html/about.html">About Me Page</a>
+                        <h4>email:tmix15@gmail.com</h4>
+                        <h4>phone: 4803631372</h4>
+                        <a href="../index.html">Home Page</a>
                         <br>
-                        <a href="./html/Tableau.html">Tableau Page</a>
+                        <a href="../html/Tableau.html">Tableau Page</a>
                         <br>
                         <a href="#top">Top of Page</a>
                     </div>
@@ -119,6 +126,6 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="../js/scripts.js"></script>
     </body>
-</html>
+</html>     
